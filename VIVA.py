@@ -1,3 +1,5 @@
 import streamlit as st
-st.title("my first streamline app")
-st.write("hello! creating a simple web application using streamlit.")
+st.title("interactive syreamlit app")
+name=st.text_input("enter your name:")
+if st.buttokn("submit"):
+  st.write(f"hello,{name} : welcome to streamlit.")
